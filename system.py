@@ -23,3 +23,6 @@ print(s.getsockname()[0])
 print("\n")
 print("Version ssh")
 system("ssh -V")
+
+print("")
+system("bash main.sh")
