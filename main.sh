@@ -6,6 +6,7 @@ echo -n -e "\e[1;32mDesea regresar al menu\e[0m \e[1;37m[\e[0m\e[1;31msi\e[0m\e[
 read opcion
 case $opcion in
 si)
+cd /data/data/com.termux/files/home/IP-OSINT
 #! /bin/bash
 bash osint.sh
 exit
